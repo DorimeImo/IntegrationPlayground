@@ -1,0 +1,13 @@
+C:\Users\dmitr\source\repos\Projects\SyncIntegration\Integration.Contracts\Contracts.Salesforce\bin\Debug\net8.0\Contracts.Salesforce.deps.json
+C:\Users\dmitr\source\repos\Projects\SyncIntegration\Integration.Contracts\Contracts.Salesforce\bin\Debug\net8.0\Contracts.Salesforce.dll
+C:\Users\dmitr\source\repos\Projects\SyncIntegration\Integration.Contracts\Contracts.Salesforce\bin\Debug\net8.0\Contracts.Salesforce.pdb
+C:\Users\dmitr\source\repos\Projects\SyncIntegration\Integration.Contracts\Contracts.Salesforce\obj\Debug\net8.0\Contracts.Salesforce.csproj.AssemblyReference.cache
+C:\Users\dmitr\source\repos\Projects\SyncIntegration\Integration.Contracts\Contracts.Salesforce\obj\Debug\net8.0\Contracts.Salesforce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmitr\source\repos\Projects\SyncIntegration\Integration.Contracts\Contracts.Salesforce\obj\Debug\net8.0\Contracts.Salesforce.AssemblyInfoInputs.cache
+C:\Users\dmitr\source\repos\Projects\SyncIntegration\Integration.Contracts\Contracts.Salesforce\obj\Debug\net8.0\Contracts.Salesforce.AssemblyInfo.cs
+C:\Users\dmitr\source\repos\Projects\SyncIntegration\Integration.Contracts\Contracts.Salesforce\obj\Debug\net8.0\Contracts.Salesforce.csproj.CoreCompileInputs.cache
+C:\Users\dmitr\source\repos\Projects\SyncIntegration\Integration.Contracts\Contracts.Salesforce\obj\Debug\net8.0\Contracts.Salesforce.sourcelink.json
+C:\Users\dmitr\source\repos\Projects\SyncIntegration\Integration.Contracts\Contracts.Salesforce\obj\Debug\net8.0\Contracts.Salesforce.dll
+C:\Users\dmitr\source\repos\Projects\SyncIntegration\Integration.Contracts\Contracts.Salesforce\obj\Debug\net8.0\refint\Contracts.Salesforce.dll
+C:\Users\dmitr\source\repos\Projects\SyncIntegration\Integration.Contracts\Contracts.Salesforce\obj\Debug\net8.0\Contracts.Salesforce.pdb
+C:\Users\dmitr\source\repos\Projects\SyncIntegration\Integration.Contracts\Contracts.Salesforce\obj\Debug\net8.0\ref\Contracts.Salesforce.dll

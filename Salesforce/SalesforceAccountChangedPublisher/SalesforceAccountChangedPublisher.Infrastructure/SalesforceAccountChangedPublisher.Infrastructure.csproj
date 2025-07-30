@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Integration.Contracts\Contracts.Salesforce\Contracts.Salesforce.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DorimeImo.Observability.Shared" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NServiceBus" Version="9.2.7" />
+    <PackageReference Include="NServiceBus.Persistence.Sql" Version="8.2.0" />
+    <PackageReference Include="NServiceBus.Transport.AzureServiceBus" Version="5.0.2" />
+    <PackageReference Include="OpenTelemetry.Exporter.Jaeger" Version="1.6.0-rc.1" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.12.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,186 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dmitr\\source\\repos\\Projects\\SyncIntegration\\Salesforce\\SalesforceAccountChangedPublisher\\SalesforceAccountChangedPublisher.Infrastructure\\SalesforceAccountChangedPublisher.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dmitr\\source\\repos\\Projects\\SyncIntegration\\Integration.Contracts\\Contracts.Salesforce\\Contracts.Salesforce.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dmitr\\source\\repos\\Projects\\SyncIntegration\\Integration.Contracts\\Contracts.Salesforce\\Contracts.Salesforce.csproj",
+        "projectName": "Contracts.Salesforce",
+        "projectPath": "C:\\Users\\dmitr\\source\\repos\\Projects\\SyncIntegration\\Integration.Contracts\\Contracts.Salesforce\\Contracts.Salesforce.csproj",
+        "packagesPath": "C:\\Users\\dmitr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dmitr\\source\\repos\\Projects\\SyncIntegration\\Integration.Contracts\\Contracts.Salesforce\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dmitr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "NServiceBus.MessageInterfaces": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dmitr\\source\\repos\\Projects\\SyncIntegration\\Salesforce\\SalesforceAccountChangedPublisher\\SalesforceAccountChangedPublisher.Infrastructure\\SalesforceAccountChangedPublisher.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dmitr\\source\\repos\\Projects\\SyncIntegration\\Salesforce\\SalesforceAccountChangedPublisher\\SalesforceAccountChangedPublisher.Infrastructure\\SalesforceAccountChangedPublisher.Infrastructure.csproj",
+        "projectName": "SalesforceAccountChangedPublisher.Infrastructure",
+        "projectPath": "C:\\Users\\dmitr\\source\\repos\\Projects\\SyncIntegration\\Salesforce\\SalesforceAccountChangedPublisher\\SalesforceAccountChangedPublisher.Infrastructure\\SalesforceAccountChangedPublisher.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\dmitr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dmitr\\source\\repos\\Projects\\SyncIntegration\\Salesforce\\SalesforceAccountChangedPublisher\\SalesforceAccountChangedPublisher.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dmitr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\dmitr\\source\\repos\\Projects\\SyncIntegration\\Integration.Contracts\\Contracts.Salesforce\\Contracts.Salesforce.csproj": {
+                "projectPath": "C:\\Users\\dmitr\\source\\repos\\Projects\\SyncIntegration\\Integration.Contracts\\Contracts.Salesforce\\Contracts.Salesforce.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DorimeImo.Observability.Shared": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[9.2.7, )"
+            },
+            "NServiceBus.Persistence.Sql": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "NServiceBus.Transport.AzureServiceBus": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "OpenTelemetry.Exporter.Jaeger": {
+              "target": "Package",
+              "version": "[1.6.0-rc.1, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

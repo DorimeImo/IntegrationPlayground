@@ -1,0 +1,90 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SalesforceAccountChangedPublisher.Host/1.0.0": {
+        "dependencies": {
+          "SalesforceAccountChangedPublisher.Application": "1.0.0",
+          "SalesforceAccountChangedPublisher.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "SalesforceAccountChangedPublisher.Host.dll": {}
+        }
+      },
+      "NServiceBus.MessageInterfaces/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/NServiceBus.MessageInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Contracts.Salesforce/1.0.0": {
+        "dependencies": {
+          "NServiceBus.MessageInterfaces": "1.0.0"
+        },
+        "runtime": {
+          "Contracts.Salesforce.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SalesforceAccountChangedPublisher.Application/1.0.0": {
+        "dependencies": {
+          "Contracts.Salesforce": "1.0.0"
+        },
+        "runtime": {
+          "SalesforceAccountChangedPublisher.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SalesforceAccountChangedPublisher.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Contracts.Salesforce": "1.0.0"
+        },
+        "runtime": {
+          "SalesforceAccountChangedPublisher.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SalesforceAccountChangedPublisher.Host/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NServiceBus.MessageInterfaces/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-siKNnXrwtkWjChQy1rB5ASiHK+000uigiVc2iVpimWG8MhmJfgWQnbeSbmXKDQoMH1BGbIKbQxOHA/TY/Zrvtg==",
+      "path": "nservicebus.messageinterfaces/1.0.0",
+      "hashPath": "nservicebus.messageinterfaces.1.0.0.nupkg.sha512"
+    },
+    "Contracts.Salesforce/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SalesforceAccountChangedPublisher.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SalesforceAccountChangedPublisher.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
